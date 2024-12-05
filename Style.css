@@ -1,0 +1,142 @@
+
+.account{
+    width: 400px;
+    height: 650px;
+    border: 2px lightgrey solid;
+    background: #f7f7f7;
+    text-align: center;
+    font-family: sans-serif;
+    background-position: center;
+    margin-right:25%;
+    margin-left: 30%;
+    
+}
+.button1{
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgb(71, 159, 231);
+    width: 320px;
+    margin-left: 40px;
+    color: white;
+    font-size: 18px;
+    height: 50px;
+}
+.both{
+    display: flex;
+}
+.button1:active{
+    background-color: blueviolet;
+}
+.button1:hover{
+    cursor: pointer;
+}
+.button2{
+    border-style: solid;
+    padding: 10px;
+    background-color: whitesmoke;
+    width: 300px;
+    margin-left: 40px;
+    color: black;
+    box-shadow: wheat;
+    border-width: 1px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.button2:active{
+    background-color: blueviolet;
+}
+.button2:hover{
+    cursor: pointer;
+}
+.rec{
+    
+    border-style: solid;
+    background-color: white;
+    border-color: rgb(107, 88, 88);
+    height: 40px;
+    width: 80%;
+    border-width: 1px;
+    margin-left: 35px;
+    display: flex;
+    gap: 10px;
+    
+}
+.word{
+    border-style: solid;
+    background-color: white;
+    border-color: rgb(107, 88, 88);
+    height: 40px;
+    width: 80%;
+    border-width: 1px;
+    margin-left: 35px;
+    display: flex;
+    gap: 10px;
+}
+.now{
+    display: flex;
+}
+.name{
+    border: unset;
+   } 
+.pass{
+    border: unset;
+}
+.checkbox{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.terms{
+    color: rgb(71, 159, 231);
+}
+.span{
+    margin-left: 118px;
+    color: rgb(71, 159, 231);
+}
+.p{
+    margin-bottom: 25px;
+}
+.size{
+    font-size: 50px;
+}
+.book{
+    margin-top: 10px;
+    border-style: solid;
+    border-radius: 40px;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 25%;
+    border-width: 1px;
+
+}
+.gram{
+    padding: 5px;
+    margin-top: 10px;
+    border-style: solid;
+    border-radius: 40px;
+    margin: 10px;
+    border-width: 1px;
+}
+.tweet{
+    padding: 5px;
+    margin-top: 10px;
+    border-style: solid;
+    border-radius: 40px;
+    margin: 10px;
+    border-width: 1px;
+}
+.in{
+    flex: 1;
+    height: 2px;
+    background-color: black;
+    display: inline-block;
+   
+}
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
